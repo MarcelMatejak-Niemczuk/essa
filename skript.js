@@ -17,3 +17,8 @@ function usunEfekty() {
     const wyraz = document.getElementById(napis)
     napis.classList.remove("tlo", "rozmiar", "kroj")
 }
+
+function skresltekst() {
+    const wyraz = document.getElementById(napis)
+    napis.classlist.add("skresl")
+}
