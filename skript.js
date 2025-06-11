@@ -1,6 +1,6 @@
 function zmientlo() {
     const wyraz = document.getElementById("napis");
-    wyraz.classList.replace("rozmiar", "tlo");
+    wyraz.classList.add("tlo");
 }
 
 function zmienrozmiar() {
@@ -13,12 +13,12 @@ function zmienkroj() {
     wyraz.classList.add("kroj");
 }
 
-function usunEfekty() {
-    const wyraz = document.getElementById("napis");
-    wyraz.classList.remove("tlo", "rozmiar", "kroj", "skresl");
-}
-
 function skresltekst() {
     const wyraz = document.getElementById("napis");
     wyraz.classList.add("skresl");
+}
+
+function usunEfekty() {
+    const wyraz = document.getElementById("napis");
+    wyraz.classList.remove("tlo", "rozmiar", "kroj", "skresl");
 }
