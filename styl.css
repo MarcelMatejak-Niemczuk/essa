@@ -1,13 +1,14 @@
 .tlo {
     background-color: brown;
+    color: white;
 }
 
 .rozmiar {
-    font-size: 100px;
+    font-size: 60px;
 }
 
 .kroj {
-    font-family: Impact;
+    font-family: 'Impact', sans-serif;
 }
 
 .skresl {
