@@ -20,5 +20,5 @@ function usunEfekty() {
 
 function skresltekst() {
     const wyraz = document.getElementById(napis)
-    napis.classlist.add("skresl")
+    napis.classlist.add("Skresl")
 }
